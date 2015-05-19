@@ -1,0 +1,56 @@
+
+But de ce produit :
+--------------------
+
+Echange de fichier entre partenaire 
+
+Echange securise (mot de passe / cryptage etc ...)
+Fichier avec envoi de la structure (facultatif)
+Verification de la structure
+
+verification de la connexion
+
+Description des echanges
+
+Log simple a lire
+
+Generation de documentation
+
+Interface client pour l'envoi de données
+
+Declenchement de procedure externe
+Declenchement de procedure en cas d'action
+
+gestion de calendrier
+Envoi de fichier vide possible
+
+Check : Verification partenaire / echanges / fichiers
+
+
+Partenaire : 
+
+Echange de donnee entre partenaire
+
+Partenaire
+	Adresse IP (plusieurs possibles)
+	Port 
+	PARTNER_NAME	Nom distant du partenaire
+	MY_NAME		Nom local
+
+	Securite / Mot de passe
+
+	Le partenaire est responsable du niveau de securite
+
+Echanges 
+	Date / Heure
+	Obligatoire (avertissement si pas d'action)
+	Calendrier
+	Sens ( Reception / envoi )
+	Donnees
+
+Donnees
+	type (fichier / fichier structure)
+	Structure (entete + lignes + total)
+	Controle de la structure
+	Fichier vide (O/N)
+	
